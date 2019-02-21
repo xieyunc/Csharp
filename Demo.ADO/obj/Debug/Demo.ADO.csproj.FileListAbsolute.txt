@@ -1,0 +1,9 @@
+E:\xxx\Csharp\Demo.ADO\bin\Debug\Demo.ADO.exe.config
+E:\xxx\Csharp\Demo.ADO\obj\Debug\Demo.ADO.csprojResolveAssemblyReference.cache
+E:\xxx\Csharp\Demo.ADO\obj\Debug\Demo.ADO.Properties.Resources.resources
+E:\xxx\Csharp\Demo.ADO\obj\Debug\Demo.ADO.csproj.GenerateResource.Cache
+E:\xxx\Csharp\Demo.ADO\bin\Debug\Demo.ADO.exe
+E:\xxx\Csharp\Demo.ADO\bin\Debug\Demo.ADO.pdb
+E:\xxx\Csharp\Demo.ADO\obj\Debug\Demo.ADO.exe
+E:\xxx\Csharp\Demo.ADO\obj\Debug\Demo.ADO.pdb
+E:\xxx\Csharp\Demo.ADO\obj\Debug\Demo.ADO.SqlConnTestForm.resources

@@ -1,0 +1,6 @@
+E:\xxx\Csharp\Demo2\bin\Debug\Demo2.exe.config
+E:\xxx\Csharp\Demo2\bin\Debug\Demo2.exe
+E:\xxx\Csharp\Demo2\bin\Debug\Demo2.pdb
+E:\xxx\Csharp\Demo2\obj\Debug\Demo2.exe
+E:\xxx\Csharp\Demo2\obj\Debug\Demo2.pdb
+E:\xxx\Csharp\Demo2\obj\Debug\Demo2.csprojResolveAssemblyReference.cache

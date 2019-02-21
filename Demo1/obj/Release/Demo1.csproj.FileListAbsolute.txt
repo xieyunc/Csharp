@@ -1,0 +1,10 @@
+E:\xxx\Csharp\Demo1\bin\Release\Demo1.exe.config
+E:\xxx\Csharp\Demo1\bin\Release\Demo1.exe
+E:\xxx\Csharp\Demo1\bin\Release\Demo1.pdb
+E:\xxx\Csharp\Demo1\obj\Release\Demo1.exe
+E:\xxx\Csharp\Demo1\obj\Release\Demo1.pdb
+E:\xxx\Csharp\Demo1\bin\Release\Demo1.exe.manifest
+E:\xxx\Csharp\Demo1\bin\Release\Demo1.application
+E:\xxx\Csharp\Demo1\obj\Release\Demo1.TrustInfo.xml
+E:\xxx\Csharp\Demo1\obj\Release\Demo1.exe.manifest
+E:\xxx\Csharp\Demo1\obj\Release\Demo1.application
