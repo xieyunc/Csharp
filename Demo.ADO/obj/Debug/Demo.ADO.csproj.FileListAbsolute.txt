@@ -7,3 +7,4 @@ E:\xxx\Csharp\Demo.ADO\bin\Debug\Demo.ADO.pdb
 E:\xxx\Csharp\Demo.ADO\obj\Debug\Demo.ADO.exe
 E:\xxx\Csharp\Demo.ADO\obj\Debug\Demo.ADO.pdb
 E:\xxx\Csharp\Demo.ADO\obj\Debug\Demo.ADO.SqlConnTestForm.resources
+E:\xxx\Csharp\Demo.ADO\obj\Debug\Demo.ADO.SqlTableForm.resources

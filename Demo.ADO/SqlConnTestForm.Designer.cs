@@ -61,6 +61,7 @@
             this.txt_Srv.Size = new System.Drawing.Size(133, 21);
             this.txt_Srv.TabIndex = 2;
             this.txt_Srv.Text = "172.18.4.13";
+            this.txt_Srv.TextChanged += new System.EventHandler(this.txt_Srv_TextChanged);
             // 
             // button1
             // 

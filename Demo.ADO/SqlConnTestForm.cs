@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Configuration;
 
 namespace Demo.ADO
 {
@@ -30,7 +31,10 @@ namespace Demo.ADO
                 MessageBox.Show("服务器IP、数据库名称、数据库用户名不能为空！", "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
                 return;
             }
-            string connStr = "Server="+txt_Srv.Text.Trim()+";database="+txt_DB.Text.Trim()+";uid="+txt_User.Text.Trim()+";pwd="+txt_Pwd.Text.Trim()+";";
+            //string connStr = "Server="+txt_Srv.Text.Trim()+";database="+txt_DB.Text.Trim()+";uid="+txt_User.Text.Trim()+";pwd="+txt_Pwd.Text.Trim()+";";
+            string connStr = ConfigurationManager.ConnectionStrings["connStr"].ConnectionString;
+            if (sqlConn.State != ConnectionState.Closed)
+                sqlConn.Close();
             sqlConn.ConnectionString = connStr;
             try
             {
@@ -74,6 +78,11 @@ namespace Demo.ADO
         private void SqlConnTestForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void txt_Srv_TextChanged(object sender, EventArgs e)
+        {
+            button1.Enabled = (sender as TextBox).Text.Trim() != "";
         }
     }
 }
