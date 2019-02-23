@@ -84,5 +84,11 @@ namespace Demo.ADO
         {
             button1.Enabled = (sender as TextBox).Text.Trim() != "";
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SqlTableForm aForm = new SqlTableForm();
+            aForm.Show();
+        }
     }
 }
