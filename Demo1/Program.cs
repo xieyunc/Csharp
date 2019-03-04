@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MyClassLibrary;
 
 namespace Demo1
 {
@@ -29,6 +30,10 @@ namespace Demo1
             endTime = DateTime.Now.Millisecond;
             time = endTime - startTime;
             Console.WriteLine("StringBuilder消耗的时间：{0}ms",time);
+
+            TestClass myClass = new TestClass();
+
+            Console.WriteLine("MyClassLibary.TestClass myClass.a="+myClass.a);
 
             Console.ReadKey();
         }
